@@ -1,0 +1,32 @@
+body{
+
+}
+
+.sidebar{
+  background-color: #093870;
+  color: white;
+  position: absolute;
+  width: 330px;
+  height: 1080px;
+  left: 0px;
+  top: 0px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.home-button{
+  position: absolute;
+  width: 198px;
+  height: 43px;
+  left: 111px;
+  top: 124px;
+  font-family: 'Patua One', cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 39px;
+
+}
