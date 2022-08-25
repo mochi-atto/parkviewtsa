@@ -2,6 +2,14 @@ body{
 
 }
 
+/* .w3-sidebar{
+height:100%;
+width:200px;
+background-color:#fff;
+position:fixed!important;
+z-index:1;
+overflow:auto
+} */
 .sidebar{
   background-color: #093870;
   color: white;
@@ -29,4 +37,69 @@ a {
   font-size: 32px;
   line-height: 39px;
 
+}
+
+.calendar-button{
+  position: absolute;
+  width: 198px;
+  height: 43px;
+  left: 111px;
+  top: 280px;
+  font-family: 'Patua One', cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 39px;
+}
+
+.social-button{
+  position: absolute;
+  width: 198px;
+  height: 43px;
+  left: 111px;
+  top: 358px;
+  font-family: 'Patua One', cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 39px;
+}
+
+.service-button{
+  position: absolute;
+  width: 198px;
+  height: 79.05px;
+  left: 111px;
+  top: 436px;
+  font-family: 'Patua One', cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 39px;
+}
+
+.officers-button{
+  position: absolute;
+  width: 198px;
+  height: 43px;
+  left: 111px;
+  top: 550px;
+  font-family: 'Patua One', cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 39px;
+}
+
+.vex-button{
+  position: absolute;
+  width: 198px;
+  height: 43px;
+  left: 111px;
+  top: 628px;
+  font-family: 'Patua One', cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 39px;
 }
