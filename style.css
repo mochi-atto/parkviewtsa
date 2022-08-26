@@ -1,6 +1,5 @@
 body{
-  width: 1920px;
-  height: 1080px;
+
 }
 
 /* .w3-sidebar{
@@ -14,9 +13,10 @@ overflow:auto
 .sidebar{
   background-color: #093870;
   color: white;
+
   position: absolute;
-  width: 330px;
-  height: 1080px;
+  width: 269px;
+  height: 718px;
   left: 0px;
   top: 0px;
 
@@ -30,78 +30,109 @@ a {
 .home-button{
   position: absolute;
   width: 198px;
-  height: 43px;
-  left: 111px;
-  top: 124px;
-  font-family: 'Patua One', cursive;
+  height: 29px;
+  left: 102px;
+  top: 82px;
+
+  font-family: 'Patua One';
   font-style: normal;
   font-weight: 400;
-  font-size: 32px;
-  line-height: 39px;
+  font-size: 24px;
+  line-height: 29px;
 
+}
+
+.conferences-button{
+  position: absolute;
+  width: 198px;
+  height: 29px;
+  left: 102px;
+  top: 134px;
+
+  font-family: 'Patua One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
 }
 
 .calendar-button{
   position: absolute;
   width: 198px;
-  height: 43px;
-  left: 111px;
-  top: 280px;
-  font-family: 'Patua One', cursive;
+  height: 29px;
+  left: 102px;
+  top: 186px;
+
+  font-family: 'Patua One';
   font-style: normal;
   font-weight: 400;
-  font-size: 32px;
-  line-height: 39px;
+  font-size: 24px;
+  line-height: 29px;
 }
 
 .social-button{
   position: absolute;
   width: 198px;
-  height: 43px;
-  left: 111px;
-  top: 358px;
-  font-family: 'Patua One', cursive;
+  height: 29px;
+  left: 102px;
+  top: 238px;
+
+  font-family: 'Patua One';
   font-style: normal;
   font-weight: 400;
-  font-size: 32px;
-  line-height: 39px;
+  font-size: 24px;
+  line-height: 29px;
+
 }
 
 .service-button{
   position: absolute;
   width: 198px;
-  height: 79.05px;
-  left: 111px;
-  top: 436px;
-  font-family: 'Patua One', cursive;
+  height: 52px;
+  left: 102px;
+  top: 290px;
+
+  font-family: 'Patua One';
   font-style: normal;
   font-weight: 400;
-  font-size: 32px;
-  line-height: 39px;
+  font-size: 24px;
+  line-height: 29px;
 }
 
 .officers-button{
   position: absolute;
   width: 198px;
-  height: 43px;
-  left: 111px;
-  top: 550px;
-  font-family: 'Patua One', cursive;
+  height: 28px;
+  left: 102px;
+  top: 365px;
+
+  font-family: 'Patua One';
   font-style: normal;
   font-weight: 400;
-  font-size: 32px;
-  line-height: 39px;
+  font-size: 24px;
+  line-height: 29px;
 }
 
 .vex-button{
   position: absolute;
   width: 198px;
-  height: 43px;
-  left: 111px;
-  top: 628px;
-  font-family: 'Patua One', cursive;
+  height: 28px;
+  left: 102px;
+  top: 416px;
+
+  font-family: 'Patua One';
   font-style: normal;
   font-weight: 400;
-  font-size: 32px;
-  line-height: 39px;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.sidebar-decoration{
+  position: absolute;
+width: 17px;
+height: 718px;
+left: 269px;
+top: 0px;
+
+background: #E7864B;
 }
