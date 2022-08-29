@@ -136,3 +136,37 @@ top: 0px;
 
 background: #E7864B;
 }
+
+.title{
+  position: absolute;
+  width: 832px;
+  height: 72px;
+  left: 360px;
+  top: 52px;
+
+  font-family: 'Rubik Mono One', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 89px;
+  text-align: center;
+
+  color: #ED823E;
+}
+
+.subheading{
+  position: absolute;
+  width: 616px;
+  height: 67px;
+  left: 468px;
+  top: 140px;
+
+  font-family: 'Rubik Mono One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 40px;
+  text-align: center;
+
+  color: #CB6729;
+}
