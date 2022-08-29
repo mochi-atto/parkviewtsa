@@ -16,7 +16,7 @@ overflow:auto
 
   position: absolute;
   width: 269px;
-  height: 718px;
+  height: 100%;
   left: 0px;
   top: 0px;
 
@@ -130,14 +130,52 @@ a {
 .sidebar-decoration{
   position: absolute;
 width: 17px;
-height: 718px;
+height: 100%;
 left: 269px;
 top: 0px;
 
 background: #E7864B;
 }
 
+.main{
+  position: absolute;
+  width: 994px;
+  height: 718px;
+  left: 286px;
+  top: 0px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
 .title{
+  display: block;
+  font-family: 'Rubik Mono One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 89px;
+  text-align: center;
+
+  color: #ED823E;
+}
+
+.subheading{
+  display: block;
+  font-family: 'Rubik Mono One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 40px;
+  text-align: center;
+
+  color: #CB6729;
+}
+
+
+/* .title{
   position: absolute;
   width: 832px;
   height: 72px;
@@ -169,4 +207,4 @@ background: #E7864B;
   text-align: center;
 
   color: #CB6729;
-}
+} */
