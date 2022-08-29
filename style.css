@@ -144,7 +144,7 @@ background: #E7864B;
   left: 360px;
   top: 52px;
 
-  font-family: 'Rubik Mono One', sans-serif;
+  font-family: 'Rubik Mono One';
   font-style: normal;
   font-weight: 400;
   font-size: 72px;
@@ -158,8 +158,8 @@ background: #E7864B;
   position: absolute;
   width: 616px;
   height: 67px;
-  left: 468px;
-  top: 140px;
+  left: 450px;
+  top: 170px;
 
   font-family: 'Rubik Mono One';
   font-style: normal;
