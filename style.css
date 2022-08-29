@@ -1,6 +1,5 @@
 body{
-  width: auto;
-  height: auto;
+
 }
 
 /* .w3-sidebar{
@@ -161,6 +160,7 @@ background: #E7864B;
   text-align: center;
 
   color: #ED823E;
+  margin-bottom:0px;
 }
 
 .subheading{
@@ -173,6 +173,7 @@ background: #E7864B;
   text-align: center;
 
   color: #CB6729;
+  margin:0px;
 }
 
 
