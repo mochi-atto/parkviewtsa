@@ -139,7 +139,7 @@ background: #E7864B;
 
 .main{
   position: absolute;
-  width: 100%;
+  width: 100% 0 - 286px;
   height: 100%;
   left: 286px;
   top: 0px;
