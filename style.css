@@ -20,7 +20,7 @@ overflow:auto
   height: 100%;
   left: 0px;
   top: 0px;
-
+  display: flex;
 }
 
 a {
@@ -176,37 +176,12 @@ background: #E7864B;
   margin:0px;
 }
 
+/* Sidebar */
 
-/* .title{
-  position: absolute;
-  width: 832px;
-  height: 72px;
-  left: 360px;
-  top: 52px;
-
-  font-family: 'Rubik Mono One';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 72px;
-  line-height: 89px;
-  text-align: center;
-
-  color: #ED823E;
+.side-sidebar{
+  display: none;
 }
 
-.subheading{
-  position: absolute;
-  width: 616px;
-  height: 67px;
-  left: 450px;
-  top: 170px;
-
-  font-family: 'Rubik Mono One';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 32px;
-  line-height: 40px;
-  text-align: center;
-
-  color: #CB6729;
-} */
+.visibility{
+  display: block;
+}
