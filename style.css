@@ -21,6 +21,8 @@ overflow:auto
   left: 0px;
   top: 0px;
   display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 a {
@@ -29,9 +31,9 @@ a {
 }
 
 .home-button{
-  position: absolute;
+  /* position: absolute;
   width: 198px;
-  height: 29px;
+  height: 29px; */
   left: 102px;
   top: 82px;
 
@@ -44,9 +46,9 @@ a {
 }
 
 .conferences-button{
-  position: absolute;
+  /* position: absolute;
   width: 198px;
-  height: 29px;
+  height: 29px; */
   left: 102px;
   top: 134px;
 
@@ -58,9 +60,9 @@ a {
 }
 
 .calendar-button{
-  position: absolute;
+  /* position: absolute;
   width: 198px;
-  height: 29px;
+  height: 29px; */
   left: 102px;
   top: 186px;
 
@@ -72,9 +74,9 @@ a {
 }
 
 .social-button{
-  position: absolute;
+  /* position: absolute;
   width: 198px;
-  height: 29px;
+  height: 29px; */
   left: 102px;
   top: 238px;
 
@@ -87,9 +89,9 @@ a {
 }
 
 .service-button{
-  position: absolute;
+  /* position: absolute;
   width: 198px;
-  height: 52px;
+  height: 52px; */
   left: 102px;
   top: 290px;
 
@@ -101,9 +103,9 @@ a {
 }
 
 .officers-button{
-  position: absolute;
+  /* position: absolute;
   width: 198px;
-  height: 28px;
+  height: 28px; */
   left: 102px;
   top: 365px;
 
@@ -115,9 +117,9 @@ a {
 }
 
 .vex-button{
-  position: absolute;
+  /* position: absolute;
   width: 198px;
-  height: 28px;
+  height: 28px; */
   left: 102px;
   top: 416px;
 
@@ -182,6 +184,10 @@ background: #E7864B;
   display: none;
 }
 
+.content{
+  display: none;
+}
+
 .visibility{
-  display: block;
+  display: inline;
 }
