@@ -1,6 +1,7 @@
 body{
   width: inherit;
   height: inherit;
+  z-index: 0;
 }
 
 /* .w3-sidebar{
@@ -22,8 +23,15 @@ overflow:auto
   top: 0px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+
 }
+
+.sidebar p{
+  margin: 0px;
+  margin-left: 125px;
+  margin-top: 10px;
+}
+
 
 a {
   color: white;
@@ -141,9 +149,10 @@ background: #E7864B;
 }
 
 .main{
-  width: 100%;
+  width: calc(100%-286px);
   height: 100%;
   top: 0px;
+  margin-left: 286px;
 
   display: flex;
   flex-direction: column;
@@ -186,8 +195,18 @@ background: #E7864B;
 
 .content{
   display: none;
+
 }
 
 .visibility{
   display: inline;
+}
+
+.conf-dropdown{
+  position: absolute;
+  margin-left: 286px;
+  z-index: 1;
+  background-color: blue;
+  color: gray;
+  width: 150px;
 }
