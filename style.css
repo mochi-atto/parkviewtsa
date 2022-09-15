@@ -2,6 +2,7 @@ body{
   width: inherit;
   height: inherit;
   z-index: 0;
+  margin: 0px;
 }
 
 /* .w3-sidebar{
@@ -140,12 +141,12 @@ a {
 
 .sidebar-decoration{
   position: absolute;
-width: 17px;
-height: 100%;
-left: 269px;
-top: 0px;
+  width: 17px;
+  height: 100%;
+  left: 269px;
+  top: 0px;
 
-background: #E7864B;
+  background: #E7864B;
 }
 
 .main{
@@ -206,7 +207,32 @@ background: #E7864B;
   position: absolute;
   margin-left: 286px;
   z-index: 1;
-  background-color: blue;
+  background-color: white;
   color: gray;
-  width: 150px;
+  width: 130px;
+  height: 100%;
+  font-family: 'Patua One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29px;
+
+}
+
+.conf-dropdown p{
+  margin: 0px;
+  margin-top: 10px;
+  padding-left: 10px;
+  color: gray;
+}
+
+
+.dropdown-decoration{
+  position: absolute;
+  width: 5px;
+  height: 100%;
+  left: 130px;
+  top: 0px;
+
+  background: #E7864B;
 }
