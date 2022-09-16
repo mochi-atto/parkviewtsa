@@ -29,7 +29,7 @@ overflow:auto
 
 .sidebar p{
   margin: 0px;
-  margin-left: 125px;
+  margin-left: 115px;
   margin-top: 10px;
 }
 
@@ -207,7 +207,7 @@ a {
   position: absolute;
   margin-left: 286px;
   z-index: 1;
-  background-color: white;
+  background-color: #FAD8CC;
   color: gray;
   width: 130px;
   height: 100%;
@@ -223,7 +223,7 @@ a {
   margin: 0px;
   margin-top: 10px;
   padding-left: 10px;
-  color: gray;
+  color: #EC8139;
 }
 
 
@@ -234,5 +234,5 @@ a {
   left: 130px;
   top: 0px;
 
-  background: #E7864B;
+  background: #F8B899;
 }
