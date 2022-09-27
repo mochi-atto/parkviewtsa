@@ -3,6 +3,7 @@ body{
   height: inherit;
   z-index: 0;
   margin: 0px;
+  background-image: url(pvtsabg.jpg);
 }
 
 /* .w3-sidebar{
@@ -158,6 +159,7 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
+
   /* align-items: center; */
 
 }
