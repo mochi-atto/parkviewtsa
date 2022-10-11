@@ -3,7 +3,7 @@ body{
   height: inherit;
   z-index: 0;
   margin: 0px;
-  background-image: url(pvtsabg.jpg);
+  /* background-image: url(pvtsabg.jpg); */
 }
 
 /* .w3-sidebar{
@@ -237,4 +237,22 @@ a {
   top: 0px;
 
   background: #F8B899;
+}
+
+.announcement{
+  background-color: #F5BB96;
+  text-align: left;
+  border-style: solid;
+  border-width: 10px;
+  border-color: #F7D8C8;
+  border-radius: 37px;
+  width: 75%;
+  padding-left: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+}
+
+.announcement p{
+  color: #CB6729;
 }
