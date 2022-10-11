@@ -255,5 +255,10 @@ a {
 
 .announcement p{
   color: #CB6729;
-  
+
+}
+
+.sidebar img {
+  width: 50px;
+  height: 50px;
 }
