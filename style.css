@@ -30,8 +30,7 @@ overflow:auto
 
 .sidebar p{
   margin: 0px;
-  margin-left: 115px;
-  margin-top: 10px;
+  margin-left: 10px;
 }
 
 
@@ -52,6 +51,7 @@ a {
   font-weight: 400;
   font-size: 24px;
   line-height: 29px;
+  display:flex;
 
 }
 
@@ -259,6 +259,14 @@ a {
 }
 
 .sidebar img {
-  width: 50px;
-  height: 50px;
+  width: 30px;
+  height: 30px;
+  align-items: flex-end;
+}
+
+.sidebar a{
+  display: flex;
+  margin-left: 80px;
+    margin-top: 40px;
+
 }
