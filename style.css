@@ -3,7 +3,9 @@ body{
   height: inherit;
   z-index: 0;
   margin: 0px;
-  /* background-image: url(pvtsabg.jpg); */
+  /* background-image: url(pvtsabg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; */
 }
 
 /* .w3-sidebar{
@@ -172,7 +174,7 @@ a {
   font-size: 72px;
   line-height: 89px;
   text-align: center;
-
+  margin-top: 50px;
   color: #ED823E;
   margin-bottom:0px;
 }
@@ -240,6 +242,7 @@ a {
 }
 
 .announcement{
+  margin-top: 10px;
   background-color: #F5BB96;
   text-align: left;
   border-style: solid;
@@ -248,14 +251,23 @@ a {
   border-radius: 37px;
   width: 75%;
   padding-left: 10px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-right: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-family: 'Roboto', sans-serif;
+  color: #401d08;
+}
 
+.announcement h1{
+  color: #CB6729;
+}
+
+.announcement b{
+    color: #CB6729;
 }
 
 .announcement p{
-  color: #CB6729;
-
+  margin: 0px;
 }
 
 .sidebar img {
@@ -269,4 +281,7 @@ a {
   margin-left: 80px;
     margin-top: 40px;
 
+}
+li{
+  margin-top: 10px;
 }
