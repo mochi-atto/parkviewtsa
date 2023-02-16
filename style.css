@@ -63,6 +63,15 @@ a {
 
 }
 
+.home-button:hover .hover-show{
+  visibility: visible;
+}
+
+.home-button:hover .hover-hide{
+  visibility: hidden;
+}
+
+
 .conferences-button{
   /* position: absolute;
   width: 198px;
@@ -77,6 +86,14 @@ a {
   line-height: 29px;
 }
 
+.conferences-button:hover .hover-show{
+  visibility: visible;
+}
+
+.conferences-button:hover .hover-hide{
+  visibility: hidden;
+}
+
 .calendar-button{
   /* position: absolute;
   width: 198px;
@@ -89,6 +106,14 @@ a {
   font-weight: 400;
   font-size: 24px;
   line-height: 29px;
+}
+
+.calendar-button:hover .hover-show{
+  visibility: visible;
+}
+
+.calendar-button:hover .hover-hide{
+  visibility: hidden;
 }
 
 .social-button{
@@ -106,6 +131,14 @@ a {
 
 }
 
+.social-button:hover .hover-show{
+  visibility: visible;
+}
+
+.social-button:hover .hover-hide{
+  visibility: hidden;
+}
+
 .service-button{
   /* position: absolute;
   width: 198px;
@@ -118,6 +151,14 @@ a {
   font-weight: 400;
   font-size: 24px;
   line-height: 29px;
+}
+
+.service-button:hover .hover-show{
+  visibility: visible;
+}
+
+.service-button:hover .hover-hide{
+  visibility: hidden;
 }
 
 .officers-button{
@@ -134,6 +175,14 @@ a {
   line-height: 29px;
 }
 
+.officers-button:hover .hover-show{
+  visibility: visible;
+}
+
+.officers-button:hover .hover-hide{
+  visibility: hidden;
+}
+
 .vex-button{
   /* position: absolute;
   width: 198px;
@@ -146,6 +195,24 @@ a {
   font-weight: 400;
   font-size: 24px;
   line-height: 29px;
+}
+
+.vex-button:hover .hover-show{
+  visibility: visible;
+}
+
+.vex-button:hover .hover-hide{
+  visibility: hidden;
+}
+
+.hover-show{
+  position: fixed;
+  z-index: 1;
+  visibility: hidden;
+}
+
+.hover-hide{
+  visibility: visible;
 }
 
 .sidebar-decoration{
