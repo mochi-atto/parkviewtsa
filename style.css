@@ -235,10 +235,10 @@ a {
   flex-direction: column;
   align-items: center;
   top: 0;
-    bottom:0;
-    position:fixed;
-    overflow-y:scroll;
-    overflow-x:hidden;
+  bottom:0;
+  position:fixed;
+  overflow-y:scroll;
+  overflow-x:hidden;
 
 
   /* align-items: center; */
@@ -258,6 +258,19 @@ a {
   margin-bottom:0px;
 }
 
+.heading{
+  display: block;
+  font-family: 'Rubik Mono One';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 65px;
+  line-height: 60px;
+  text-align: center;
+  margin-top: 50px;
+  color: #ED823E;
+  margin-bottom:10px;
+}
+
 .subheading{
   display: block;
   font-family: 'Rubik Mono One';
@@ -270,6 +283,152 @@ a {
   color: #CB6729;
   margin:0px;
 }
+
+.main-core{
+  width: calc(100%-286px);
+  height: 100vh;
+  margin-left: 286px;
+  display: flex;
+  flex-direction: column;
+  top: 0;
+  bottom:0;
+  position:fixed;
+  overflow-y:scroll;
+  overflow-x:hidden;
+}
+
+.text{
+  display: flex;
+  text-align: left;
+  margin-top: 30px;
+  margin-left: 35px;
+  margin-right: 50px;
+  color: #CB6729;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.text h2{
+  font-family: 'Rubik';
+  font-weight: 100px;
+  font-size: 25px;
+  margin: 0px;
+}
+.text p{
+  margin: 0px;
+  margin-bottom: 15px;
+  font-family: 'Rubik';
+}
+
+.text a{
+  color: #ED823E;
+  text-decoration: underline;
+}
+
+.video-wrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+}
+
+.video-wrapper object,
+.video-wrapper embed,
+.video-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.next-to{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.next-to h2{
+  font-size: 30px;
+  /* text-align: center; */
+}
+
+.next-to p{
+  font-size: 15px;
+  /* text-align: center; */
+}
+
+.next-to img{
+  object-fit: cover;
+  margin: 20px;
+  width: 499px;
+  height: 310px;
+  border-color: #093870;
+  border-radius: 20px;
+  border-width: 5px;
+  border-style: solid;
+}
+
+.vertical-pic{
+  margin: 20px;
+  /* width: 1000px;
+  height: 1000px; */
+  border-color: #093870;
+  border-radius: 20px;
+  border-width: 5px;
+  border-style: solid;
+}
+
+.gallery{
+  display: flex;
+  justify-content: space-around;
+  width: 1606px;
+  flex-wrap: wrap;
+
+}
+
+.gallery h2{
+  font-size: 27px;
+  font-family: 'Rubik';
+  text-align: center;
+  margin:0px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.gallery h3{
+  font-size: 17px;
+  font-family: 'Rubik';
+  text-align: center;
+  margin: 0px;
+  font-weight: normal;
+}
+
+.officer-pic{
+  object-fit: cover;
+  width: 200px;
+  height: 300px;
+}
+
+/* .core-pics{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.core-pics img{
+
+} */
+
+
+.bracket-text{
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 3px;
+  border-left-style: solid;
+  border-width: 3px;
+}
+
+
 
 /* Sidebar */
 
