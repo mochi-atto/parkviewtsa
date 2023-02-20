@@ -4,3 +4,5 @@ function toggleVisibility(){
 }
 
 var clientHeight = document.getElementById('container').clientHeight;
+
+
